@@ -38,5 +38,5 @@
       nuevo.style.backgroundColor = color;
       nuevo.style.border = "2px solid black";
       nuevo.style.marginTop = "10px";
-      document.body.appendChild(nuevo);
+      document.getElementById("contenedor-nuevos").appendChild(nuevo);
     }
